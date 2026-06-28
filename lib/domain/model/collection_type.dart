@@ -1,0 +1,4 @@
+enum CollectionType {
+  favorite,
+  watchlist,
+}

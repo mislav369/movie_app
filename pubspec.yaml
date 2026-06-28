@@ -1,0 +1,83 @@
+name: movie_app
+description: "Movie app built with Flutter"
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+  flutter_riverpod: ^2.6.1
+
+  retrofit: ^4.9.2
+
+  dio: ^5.9.2
+
+  json_annotation: ^4.12.0
+
+  cached_network_image: ^3.4.1
+
+  firebase_core: ^4.6.0
+
+  firebase_auth: ^6.5.0
+
+  hive_ce: ^2.19.3
+
+  hive_ce_flutter: ^2.3.4
+
+  lottie: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.0
+  retrofit_generator: ^10.2.5
+  json_serializable: ^6.14.0
+  hive_ce_generator: ^1.11.2
+
+  flutter_launcher_icons: ^0.14.4
+  url_launcher: ^6.3.1
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/launcher_icon.png"
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+
